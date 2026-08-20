@@ -2,6 +2,8 @@
 
 Beginner guides and quick starts for Sum28's two flagship products. Written for agents who have never touched either product — and for the team promoting them.
 
+**Read online:** [sum28apps.github.io/tutorials](https://sum28apps.github.io/tutorials/) — the site rebuilds from this repo automatically on every push to `main`.
+
 | Product | One line | Start here |
 |---|---|---|
 | **ohm** · [ohm.sum28.com](https://ohm.sum28.com) | open house, measured — visitors sign in in 30 seconds, the property packet reaches their phone instantly, and your seller gets a report worth reading | [5-minute quick start](ohm/quickstart.md) · [中文](ohm/quickstart.zh.md) |
