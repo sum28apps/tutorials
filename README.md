@@ -16,12 +16,10 @@ One Sum28 account signs in to both products.
 ```
 ohm/        quick start (en·中文) + 5-lesson beginner course + FAQ
 p2d/        quick start (en·中文) + 5-lesson beginner course + FAQ
-promo/      one-pagers, demo scripts, and voice rules for marketing
 ```
 
 - **New agent?** Do the quick start for the product in your hand. Each takes minutes and ends with something real: a live open house, or publish-ready listing copy.
 - **Want the full picture?** Each product has a numbered course (`guide/01…05`). Lessons are short and build on each other.
-- **Promoting the products?** Everything in [`promo/`](promo/README.md) is written to be lifted directly into flyers, landing pages, and live demos.
 
 ## 中文说明
 
@@ -34,7 +32,6 @@ promo/      one-pagers, demo scripts, and voice rules for marketing
 
 - 新手请从各产品的快速上手开始：[ohm 快速上手](ohm/quickstart.zh.md) · [p2d 快速上手](p2d/quickstart.zh.md)
 - 教学课程（`guide/` 目录，英文）按序号循序渐进，每课几分钟
-- 市场推广素材见 [`promo/`](promo/README.md)（中英双语一页纸、演示脚本、品牌语气规则）
 
 ---
 

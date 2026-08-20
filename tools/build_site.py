@@ -48,14 +48,13 @@ NAV: list[tuple[str, list[tuple[str, str]]]] = [
         ("p2d/guide/05-credits-and-history.html", "5 · credits & history"),
         ("p2d/faq.html", "faq"),
     ]),
-    ("promo", [
-        ("promo/index.html", "materials"),
-        ("promo/ohm-one-pager.html", "ohm one-pager"),
-        ("promo/p2d-one-pager.html", "p2d one-pager"),
-        ("promo/demo-script-ohm-90s.html", "ohm · 90-second demo"),
-        ("promo/demo-script-p2d-2min.html", "p2d · 2-minute demo"),
-    ]),
 ]
+
+# Custom domain for GitHub Pages: when set, a CNAME file in the published
+# branch claims the domain. Set to "tutorials.sum28.com" only once the DNS
+# record (tutorials CNAME sum28apps.github.io) exists — claiming earlier
+# breaks the github.io URL, which redirects to the not-yet-resolving domain.
+CUSTOM_DOMAIN = ""
 
 MD_EXTENSIONS = ["tables", "fenced_code", "toc"]
 
@@ -166,6 +165,8 @@ def main() -> None:
         parts[-1] = "index.html" if parts[-1] == "README.md" else parts[-1][:-3] + ".html"
         render(src, "/".join(parts))
         count += 1
+    if CUSTOM_DOMAIN:
+        (DIST / "CNAME").write_text(CUSTOM_DOMAIN + "\n", encoding="utf-8")
     # Pages serves 404.html for unknown paths.
     (DIST / "404.html").write_text(
         PAGE.format(
