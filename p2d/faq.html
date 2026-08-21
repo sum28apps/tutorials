@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p2d — frequently asked questions · sum28 tutorials</title>
+<meta name="description" content="Beginner guides and quick starts for ohm and p2d — Sum28's flagship products.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23F6F3EC'/%3E%3Ccircle cx='8' cy='8' r='3' fill='none' stroke='%238E7554' stroke-width='1.6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<div class="layout">
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="../index.html">sum28 tutorials</a>
+  <div class="brand-sub">ohm · p2d — beginner guides</div>
+  <div class="nav-section">
+<div class="nav-label">start</div>
+<a href="../index.html">home</a>
+</div>
+<div class="nav-section">
+<div class="nav-label">ohm — open house, measured</div>
+<a href="../ohm/index.html">about ohm</a>
+<a href="../ohm/quickstart.html">quick start · en</a>
+<a href="../ohm/quickstart.zh.html">快速上手 · 中文</a>
+<a href="../ohm/guide/01-first-open-house.html">1 · first open house</a>
+<a href="../ohm/guide/02-sign-in-day.html">2 · sign-in day</a>
+<a href="../ohm/guide/03-live-and-roster.html">3 · while it's live</a>
+<a href="../ohm/guide/04-seller-report.html">4 · the seller report</a>
+<a href="../ohm/guide/05-listings-and-p2d.html">5 · listings & p2d</a>
+<a href="../ohm/faq.html">faq</a>
+</div>
+<div class="nav-section">
+<div class="nav-label">p2d — photo to description</div>
+<a href="../p2d/index.html">about p2d</a>
+<a href="../p2d/quickstart.html">quick start · en</a>
+<a href="../p2d/quickstart.zh.html">快速上手 · 中文</a>
+<a href="../p2d/guide/01-your-first-listing.html">1 · your first listing</a>
+<a href="../p2d/guide/02-your-voice.html">2 · your voice</a>
+<a href="../p2d/guide/03-trust-report.html">3 · the trust report</a>
+<a href="../p2d/guide/04-five-formats.html">4 · five formats</a>
+<a href="../p2d/guide/05-credits-and-history.html">5 · credits & history</a>
+<a href="../p2d/faq.html" aria-current="page">faq</a>
+</div>
+</aside>
+<main>
+<button class="nav-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">menu</button>
+<article>
+<h1 id="p2d-frequently-asked-questions">p2d — frequently asked questions</h1>
+<p><em>The questions agents, brokers, and sellers ask — answered the way p2d is actually built.</em></p>
+<h2 id="trust">Trust</h2>
+<p><strong>Will it invent features my listing doesn't have?</strong>
+This is the problem p2d exists to solve. The copy may only draw from features you confirmed from the photos and facts from the record. An independent checker (not the writer) traces every line to its evidence; anything unsupported is softened before you see it; numbers are compared against the record digit-for-digit. The operating rule: <em>no claim without a pixel.</em></p>
+<p><strong>What does "auto-softened" mean?</strong>
+A claim that overreached its evidence was minimally weakened — "imported Carrara marble" becomes "stone countertops" — and the repaired line is re-verified. Softening can remove or weaken claims; it can never add one.</p>
+<p><strong>Can a beautiful photo make it say "newly renovated"?</strong>
+No. Photo trust is deliberately asymmetric: photos can prove a negative ("needs work") but positive condition claims get cautious phrasing unless the record supports more. Staged and virtually-staged shots get extra discounting.</p>
+<p><strong>Why should I believe the checking works?</strong>
+Because it's measured, not asserted. p2d's verifier is scored on frozen benchmark listings seeded with known "hallucination traps" — luxury features the homes don't have — and calibrated for high recall with a low false-alarm rate. Writer and checker are separate models; the writer never grades its own work.</p>
+<p><strong>Who has final responsibility for what I publish?</strong>
+You — same as with a human copywriter. p2d hands you checked copy plus the receipt (<strong><code>How we checked this</code></strong>); the professional sign-off is yours.</p>
+<h2 id="compliance">Compliance</h2>
+<p><strong>How does it handle Fair Housing?</strong>
+Three layers. The photo reader is structurally unable to output people, ethnicity, religion, school desirability, or steering language — those categories can't exist in its output format. The writer works only from that cleaned evidence. And a deterministic screening pass runs on <strong>every</strong> format before delivery — prohibited terms blocked, cautionary ones flagged. It's screening, not legal advice — but it's screening that runs every single time.</p>
+<p><strong>Will the MLS remarks pass my board's review?</strong>
+They're generated to fit public-remarks conventions: length-limited and with agent contact information stripped (the most common rejection reason). Boards differ — a quick read against your board's rules is still wise.</p>
+<h2 id="privacy-and-ownership">Privacy and ownership</h2>
+<p><strong>What happens to my photos?</strong>
+Processed in memory, not stored. p2d keeps the derived feature list (so later refines stay grounded), not your images.</p>
+<p><strong>Who owns the copy?</strong>
+You do. p2d claims no ownership of your output; whatever rights exist are yours.</p>
+<p><strong>Is my data used to train models?</strong>
+Your original inputs aren't used for training and aren't sold. Quality calibration uses de-identified aggregates and p2d's own generated outputs.</p>
+<p><strong>Can I get my data out, or delete it?</strong>
+Both, from your account: export as portable JSON, or delete your account and its listings.</p>
+<h2 id="practical">Practical</h2>
+<p><strong>Do I need to know how to "prompt"?</strong>
+No. If you can pick photos and answer plain questions, you can use p2d. There is no prompt box to master — the craft is in the pipeline, not in your typing.</p>
+<p><strong>How long does one listing take?</strong>
+About two minutes of machine time — photo reading (~30–45 s for a dozen shots) plus writing and checking — and a few minutes of your judgment at the confirm screen.</p>
+<p><strong>How many photos should I upload?</strong>
+Your 12–15 strongest. Duplicates are auto-detected, and features only need one clear photo to count as evidence.</p>
+<p><strong>What does it cost?</strong>
+A finished listing (all five formats) is 10 credits by default; AI refines are 1 credit with the first free per listing; manual edits are always free. Plans and packs: the pricing page in-app (<strong><code>Buy credits</code></strong>).</p>
+<p><strong>Is it only for $5M+ listings?</strong>
+It's built and calibrated for the luxury tier — where a fabricated sentence costs the most and pedigree matters. That's where its checking, designer registry, and register options earn their keep.</p>
+<p><strong>My listing has no MLS number yet.</strong>
+Enter facts by hand — pre-MLS is a common moment to prepare the campaign. Add the number later when it exists.</p>
+<p><strong>I use ohm too — separate account?</strong>
+Same Sum28 account signs in to both. The description p2d writes is exactly what an ohm listing's visitor packet wants — see <a href="../ohm/guide/05-listings-and-p2d.html">ohm's lesson 5</a>.</p>
+</article>
+<footer>
+  <span>sum28</span> · <a href="https://ohm.sum28.com">ohm.sum28.com</a> ·
+  <a href="https://p2dapp.sum28.com">p2dapp.sum28.com</a> ·
+  <a href="https://github.com/sum28apps/tutorials">source</a>
+</footer>
+</main>
+</div>
+</body>
+</html>
