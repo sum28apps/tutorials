@@ -2,7 +2,7 @@
 
 Beginner guides and quick starts for Sum28's two flagship products. Written for agents who have never touched either product — and for the team promoting them.
 
-**Read online:** [sum28apps.github.io/tutorials](https://sum28apps.github.io/tutorials/) — the site rebuilds from this repo automatically on every push to `main`.
+**Read online:** [tutorials.sum28.com](https://tutorials.sum28.com/) — the site rebuilds from this repo automatically on every push to `main`.
 
 | Product | One line | Start here |
 |---|---|---|

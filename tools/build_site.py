@@ -54,7 +54,7 @@ NAV: list[tuple[str, list[tuple[str, str]]]] = [
 # branch claims the domain. Set to "tutorials.sum28.com" only once the DNS
 # record (tutorials CNAME sum28apps.github.io) exists — claiming earlier
 # breaks the github.io URL, which redirects to the not-yet-resolving domain.
-CUSTOM_DOMAIN = ""
+CUSTOM_DOMAIN = "tutorials.sum28.com"
 
 MD_EXTENSIONS = ["tables", "fenced_code", "toc"]
 
